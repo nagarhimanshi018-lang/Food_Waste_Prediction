@@ -1,4 +1,3 @@
-
 # AI-Based Food Demand Prediction and Waste Reduction System
 
 ## Project Overview
