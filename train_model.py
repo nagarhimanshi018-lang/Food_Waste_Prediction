@@ -11,10 +11,12 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
+
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "data" / "food_demand_sample.csv"
-MODEL_DIR = BASE_DIR / "model"
+DATA_PATH = BASE_DIR / "food_demand_sample.csv"
+MODEL_DIR = BASE_DIR
 MODEL_PATH = MODEL_DIR / "food_demand_model.pkl"
+
 
 # Load the existing dataset
 df = pd.read_csv(DATA_PATH)
