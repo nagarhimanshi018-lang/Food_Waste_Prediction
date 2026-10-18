@@ -6,8 +6,9 @@ import joblib
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "data" / "food_demand_sample.csv"
-MODEL_PATH = BASE_DIR / "model" / "food_demand_model.pkl"
+DATA_PATH = BASE_DIR / "food_demand_sample.csv"
+MODEL_PATH = BASE_DIR / "food_demand_model.pkl"
+
 
 st.set_page_config(
     page_title="Food Demand Predictor",
