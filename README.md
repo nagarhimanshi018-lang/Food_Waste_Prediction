@@ -63,3 +63,8 @@ Developed as part of the IBM SkillsBuild ML & Applied AI Internship.
 
 ## SDG Alignment
 United Nations Sustainable Development Goal 12: Responsible Consumption and Production.
+
+🚀 Live Dashboard
+Try the Food Demand Prediction dashboard here:
+
+https://foodwasteprediction-4zrctpeqydmu77ftqkfnvl.streamlit.app/
